@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-
+require('dotenv').config();
+console.log('Google AI API Key:', process.env.GOOGLE_AI_API_KEY);
 require('dotenv').config();
 const mongoose = require('mongoose');
 

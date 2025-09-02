@@ -56,19 +56,19 @@ const Footer = () => {
             </Typography>
             <Typography variant="body2">
               Project Maintainer:{' '}
-              <Link href="https://github.com/hoangsonww" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f50057' } }}>
-                Son Nguyen
+              <Link href="https://github.com/Adhithya017" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f50057' } }}>
+                Adithya Acharya
               </Link>
             </Typography>
             <Typography variant="body2">
               Email:{' '}
-              <Link href="mailto:hoangson091104@gmail.com" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f50057' } }}>
-                hoangson091104@gmail.com
+              <Link href="mailto:adithyaacharya686@gmail.com" color="inherit" sx={{ textDecoration: 'underline', '&:hover': { color: '#f50057' } }}>
+                adithyaacharya686@gmail.com
               </Link>
             </Typography>
             <Typography variant="body2">Phone: +1 (123) 456-7890</Typography>
             <Typography variant="body2" sx={{ marginTop: '0.5rem' }}>
-              Address: 123 Product St, Suite 500, Los Angeles, CA 90001
+              Address: 123 Product St, Street 3, Udupi , India 90001
             </Typography>
           </Grid>
         </Grid>

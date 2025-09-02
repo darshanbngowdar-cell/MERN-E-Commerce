@@ -1,6 +1,6 @@
 {
-  "name": "@hoangsonww/ecommerce-fullstack-website-frontend",
-  "displayName": "Fusion Electronics Ecommerce Website",
+  "name": "Ecom-Next-Gen-Frontend",
+"displayName": "Next-Gen E-commerce",
   "description": "A fullstack ecommerce website built with React, Node.js, Express, MongoDB, and Material-UI.",
   "author": "Son Nguyen",
   "license": "MIT",

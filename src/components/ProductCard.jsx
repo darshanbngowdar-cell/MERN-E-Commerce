@@ -48,8 +48,8 @@ export default function ProductCard({ product, addToCart }) {
           {product.description}
         </Typography>
         <Typography variant="h6" color="text.primary" sx={{ mt: 1 }}>
-          ${product.price.toFixed(2)}
-        </Typography>
+  ₹{(product.price * 83.5).toFixed(2)}
+</Typography>
       </CardContent>
 
       <CardActions disableSpacing sx={{ justifyContent: 'space-between' }}>

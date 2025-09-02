@@ -155,9 +155,9 @@ function ProductDetails({ addToCart }) {
             <Typography variant="h6" color="textSecondary" gutterBottom>
               Category: {capitalizeFirstLetter(product.category)}
             </Typography>
-            <Typography variant="h6" color="primary" gutterBottom>
-              ${product.price}
-            </Typography>
+            <Typography variant="h4">
+  ₹{(product.price * 83.5).toFixed(2)}
+</Typography>
             <Typography variant="body1" gutterBottom>
               {product.description}
             </Typography>

@@ -15,6 +15,8 @@ import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
 import NotFoundPage from './pages/NotFoundPage';
 import Footer from './components/Footer';
+import OrderDetailsPage from './pages/OrderDetailsPage';
+import OrderHistoryPage from './pages/OrderHistoryPage'; // Import the new OrderHistoryPage component
 
 const theme = createTheme({
   palette: {
@@ -39,7 +41,7 @@ function App() {
     const fetchProducts = async () => {
       try {
         // Be sure to replace the endpoint if your API (backend server) is running on a different port or domain
-        const response = await fetch('https://fusion-electronics-api.vercel.app/api/products');
+        const response = await fetch('https://the-tech-hub-mern.onrender.com/api/products');
         const data = await response.json();
         setProducts(data);
       } catch (error) {
@@ -64,25 +66,17 @@ function App() {
         <Container>
           <Routes>
             <Route path="/" element={<Home products={products} loading={loading} addToCart={addToCart} />} />
-
             <Route path="/shop" element={<Shop products={products} addToCart={addToCart} loading={loading} />} />
-
             <Route path="/cart" element={<Cart cart={cart} setCart={setCart} />} />
-
             <Route path="/checkout" element={<Checkout />} />
-
             <Route path="/order-success" element={<OrderSuccess />} />
-
             <Route path="/product/:id" element={<ProductDetails addToCart={addToCart} />} />
-
+            <Route path="/orders/:id" element={<OrderDetailsPage />} />
+            <Route path="/orders" element={<OrderHistoryPage />} /> {/* New route for order history */}
             <Route path="/login" element={<Login />} />
-
             <Route path="/register" element={<Register />} />
-
             <Route path="/forgot-password" element={<ForgotPassword />} />
-
             <Route path="/reset-password" element={<ResetPassword />} />
-
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Container>
