@@ -1,9 +1,9 @@
 # THE TECH HUB: A MERN Stack E-commerce Platform
 
 ## Overview
-**THE TECH HUB** is a full-stack e-commerce application built using the **MERN stack (MongoDB, Express.js, React, Node.js)**.  
+THE TECH HUB is a full-stack e-commerce application built using the MERN stack (MongoDB, Express.js, React, Node.js).  
 It features a modern, responsive user interface and a robust backend for managing products, users, and orders.  
-The project also includes **AI-powered product recommendations** and **order tracking** for an enhanced shopping experience.
+The project also includes AI-powered product recommendations and order tracking for an enhanced shopping experience.
 
 ---
 
@@ -13,77 +13,83 @@ The project also includes **AI-powered product recommendations** and **order tra
 ---
 
 ## ✨ Key Features
-- **User Authentication**: Secure user registration, login, and profile management.  
-- **Product Catalog**: Browse a comprehensive list of products with detailed descriptions and images.  
-- **Shopping Cart**: Add, remove, and update items in the cart.  
-- **Product Search**: Quickly find products using search functionality.  
-- **Order Management**: View order history and track shipping status.  
-- **AI-Powered Recommendations**: Personalized product suggestions with the *“Recommended For You”* feature.  
+- User Authentication: Secure user registration, login, and profile management  
+- Product Catalog: Browse a comprehensive list of products with detailed descriptions and images  
+- Shopping Cart: Add, remove, and update items in the cart  
+- Product Search: Quickly find products using search functionality  
+- Order Management: View order history and track shipping status  
+- AI-Powered Recommendations: Personalized product suggestions with the “Recommended For You” feature  
 
 ---
 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- **React** – For building the user interface.  
-- **Material-UI** – Sleek, responsive component library.  
-- **React Router** – Client-side routing.  
+- React – For building the user interface  
+- Material-UI – Sleek, responsive component library  
+- React Router – Client-side routing  
 
 ### Backend
-- **Node.js** – JavaScript runtime environment.  
-- **Express.js** – Backend web framework.  
-- **MongoDB** – NoSQL database.  
-- **Mongoose** – ODM for MongoDB.  
+- Node.js – JavaScript runtime environment  
+- Express.js – Backend web framework  
+- MongoDB – NoSQL database  
+- Mongoose – ODM for MongoDB  
 
 ### Other Services
-- **Weaviate Cloud** – AI-native vector database for semantic search and product recommendations.  
-- **MongoDB Atlas** – Cloud-hosted MongoDB database.  
-- **Google AI Studio** – Generates product embeddings for the recommendation engine.  
+- Weaviate Cloud – AI-native vector database for semantic search and product recommendations  
+- MongoDB Atlas – Cloud-hosted MongoDB database  
+- Google AI Studio – Generates product embeddings for the recommendation engine  
 
 ---
 
 ## ⚙️ Getting Started
 
 ### ✅ Prerequisites
-Make sure you have the following installed:
-- [Node.js](https://nodejs.org/) (v18 or higher)  
-- [npm](https://www.npmjs.com/) (v8 or higher)  
-- [Git](https://git-scm.com/)  
+Make sure you have the following installed:  
+- Node.js (v18 or higher)  
+- npm (v8 or higher)  
+- Git  
 
 ### 📥 Installation
-Clone the repository:
-git clone https://github.com/Adhithya017/THE-TECH-HUB-MERN.git
-cd THE-TECH-HUB-MERN
+Clone the repository:  
+git clone https://github.com/Adhithya017/THE-TECH-HUB-MERN.git  
+cd THE-TECH-HUB-MERN  
 
-##Install backend dependencies:
-cd backend
-npm install
+Install backend dependencies:  
+cd backend  
+npm install  
 
-##Install frontend dependencies:
-cd ..
-npm install
+Install frontend dependencies:  
+cd ..  
+npm install  
 
-##Create a .env file inside the backend directory and add the following variables:
-MONGO_URI=your_mongodb_atlas_uri
-JWT_SECRET=your_jwt_secret_key
-WEAVIATE_HOST=your_weaviate_host_url
-WEAVIATE_API_KEY=your_weaviate_api_key
-GOOGLE_AI_API_KEY=your_google_ai_key
+Create a .env file inside the backend directory and add the following variables:  
+MONGO_URI=your_mongodb_atlas_uri  
+JWT_SECRET=your_jwt_secret_key  
+WEAVIATE_HOST=your_weaviate_host_url  
+WEAVIATE_API_KEY=your_weaviate_api_key  
+GOOGLE_AI_API_KEY=your_google_ai_key  
 
-#▶️ Running the Application
+---
 
-##Start the backend server:
-cd backend
-npm start
+## ▶️ Running the Application
+Start the backend server:  
+cd backend  
+npm start  
 
+Start the frontend application (in a new terminal):  
+cd client  
+npm start  
 
-##Start the frontend application (in a new terminal):
-cd client
-npm start
+The app will be available at http://localhost:3000  
 
-#Adithya
-Linkedin : https://www.linkedin.com/in/adithya-acharya-585b62269/?utm_source=chatgpt.com
-Github : https://github.com/Adhithya017
+---
+
+## 👨‍💻 Author
+Adithya  
+
+LinkedIn: [https://www.linkedin.com/in/adithya-acharya-585b62269](https://www.linkedin.com/in/adithya-acharya-585b62269)  
+GitHub: [https://github.com/Adhithya017](https://github.com/Adhithya017)  
 
 #Snapshots
 
