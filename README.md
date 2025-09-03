@@ -53,7 +53,7 @@ Make sure you have the following installed:
 ### 📥 Installation
 Clone the repository:  
 git clone https://github.com/darshanbngowdar-cell/MERN-E-Commerce.git  
-cd THE-TECH-HUB-MERN  
+cd MERN-E-Commerce
 
 Install backend dependencies:  
 cd backend  
