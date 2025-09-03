@@ -88,8 +88,8 @@ The app will be available at http://localhost:3000
 ## 👨‍💻 Author
 Adithya  
 
-LinkedIn: [https://www.linkedin.com/in/adithya-acharya-585b62269](https://www.linkedin.com/in/adithya-acharya-585b62269)  
-GitHub: [https://github.com/Adhithya017](https://github.com/Adhithya017)  
+LinkedIn: https://www.linkedin.com/in/darshan-b-n/
+GitHub: https://github.com/darshanbngowdar-cell
 
 Snapshots
 
